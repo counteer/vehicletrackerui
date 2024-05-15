@@ -1,7 +1,7 @@
 // VehicleList.tsx
 import React, {useState, useEffect} from 'react';
 import {Vehicle} from '../api/Vehicle.ts';
-import './style.css'
+import './style/VehicleList.css'
 
 interface VehicleListProps {
     onRowClick: (itemId: number) => void;

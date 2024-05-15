@@ -3,7 +3,7 @@ import {Vehicle} from "../api/Vehicle.ts";
 import {LatLngExpression} from "leaflet";
 import ChangeView from "./ChangeView.tsx";
 import {Circle, MapContainer, TileLayer, Tooltip} from "react-leaflet";
-import './style.css'
+import './style/MapComponent.css'
 import 'leaflet/dist/leaflet.css';
 
 interface MapComponentProps {

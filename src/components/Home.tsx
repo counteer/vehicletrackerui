@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import VehicleList from "./VehicleList.tsx";
 import MapComponent from "./MapComponent.tsx";
-import './style.css'
+import './style/Home.css'
 
 const Home: React.FC = () => {
 
