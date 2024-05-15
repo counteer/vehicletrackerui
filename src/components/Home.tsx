@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             <h1>Vehicle Tracker</h1>
             <div className="container">
                 <VehicleList onRowClick={handleRowClick} selectedItemId={selectedItemId}/>
-                {selectedItemId && <MapComponent itemId={selectedItemId}/>}
+                {selectedItemId && <MapComponent itemId={selectedItemId} onRowClick={handleRowClick}/>}
             </div>
         </div>
     );
